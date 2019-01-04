@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/tonyrivera/react-hackernews/issues"
   },
-  "homepage": "https://github.com/tonyrivera/react-hackernews#readme"
+  "homepage": "https://github.com/tonyrivera/react-hackernews#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
 }

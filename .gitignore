@@ -7,6 +7,7 @@ logs
 *.log
 npm-debug.log*
 
+
 # Runtime data
 pids
 *.pid
@@ -19,3 +20,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+
+# NPM
+package-lock.json
