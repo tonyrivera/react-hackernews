@@ -1,7 +1,4 @@
 module.exports = {
-    context: __dirname + "/src",
-    entry: "./app.js",
-
     module: {
         rules: [
           {
@@ -13,7 +10,6 @@ module.exports = {
           }
         ]
       },
-
     output: {
       filename: "bundle.js",
       path: __dirname + "/public/js",
