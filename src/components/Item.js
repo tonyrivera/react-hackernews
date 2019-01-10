@@ -17,7 +17,7 @@ class Item extends Component {
         fetch(`${url}${query}`)
         .then(response => response.json())
         .then(result => this.setTopStories(result))
-        .catch(error => console.log("fetch error" + error))
+        .catch(error => console.log("fetch error: " + error))
     }
     render(){
         const {result} = this.state;
