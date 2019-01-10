@@ -1,6 +1,6 @@
 # react-hackernews
-## Hackernews implemented in React
-## Live example: [HackerNews React Clone](https://tonyrivera.github.io/hackernews/index.html "Hacker News React Clone")
+#### Hackernews implemented in React
+#### Live example: [HackerNews React Clone](https://tonyrivera.github.io/hackernews/index.html "Hacker News React Clone")
 
 # In terminal
 # Step 1: clone repo
