@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+const url = 'https://hn.algolia.com/api/v1/search?query=';
+const query = 'redux';
+
 class Item extends Component {
     constructor(props) {
         super(props);
@@ -11,7 +14,7 @@ class Item extends Component {
         this.setState({result});
     }
     componentDidMount() {
-        fetch('http://hn.algolia.com/api/v1/search?query=redux')
+        fetch(`${url}${query}`)
         .then(response => response.json())
         .then(result => this.setTopStories(result))
         .catch(error => console.log("fetch error" + error))
